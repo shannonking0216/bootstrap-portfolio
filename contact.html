@@ -6,48 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Heebo:100" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/style.css">
   <title>Contact | Shannon King</title>
 </head>
 
 <body>
-
-  <header id="masthead">
+  <nav class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="experience.html">EXPERIENCE</a>
+    <a href="portfolio.html">WORK</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <a href="index.html" id="logo">Shannon King</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <h2>Hello World! It's nice to meet you.</h2>
+      <h1>I'm Shannon King,</h1>
+      <h2>Full-Stack Web Developer</h2>
     </div>
-  </header>
-<!-- use bootstrap grid options to insert responsive viewports for iphone, tablet, and desktop -->
-  <div id="main-container" class="container">
+  </div>
+
+  <!-- use bootstrap grid options to insert responsive viewports for iphone, tablet, and desktop -->
+  <div class="main-container" class="container">
     <section class="main-section">
+      <h5>Let's keep in touch!</h5>
       <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-group form-check">
+        <input class="name" type="text" placeholder="Your Name"><br>
+        <input class="email" type="text" placeholder="Your Email"><br>
+        <input class="subject" type="text" placeholder="Subject"><br>
+        <input class="message" type="text" placeholder="Message"><br>
+        <!-- <div class="form-group form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        </div> -->
       </form>
     </section>
 
   </div>
-
+  <!-- <button type="submit" class="btn btn-primary" id="contact-btn">Submit</button> -->
   <footer>
-    <div class="container">
-      Copyright &copy;
+    <div class="footer">
+      <a href="contact.html">CONTACT</a>
     </div>
   </footer>
 </body>
