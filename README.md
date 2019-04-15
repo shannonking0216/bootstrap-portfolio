@@ -1,3 +1,3 @@
-**My Portfolio
-**Shannon King
-*Full-Stack Web Developer
+My Portfolio
+Shannon King
+Full-Stack Web Developer
