@@ -12,55 +12,70 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="experience.html">EXPERIENCE</a>
-        <a href="portfolio.html">WORK</a>
-        <a href="contact.html">CONTACT</a>
-      </nav>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="less-padding-margin">Hello World! Nice to meet you.</h1>
-          <h1>I'm Shannon King,</h1>
-          <h1>Full-Stack Web Developer</h1>
-        </div>
-      </div>
+
+  <nav class="top-nav container">
+    <a href="index.html">HOME |</a>
+    <a href="about.html">ABOUT |</a>
+    <a href="experience.html">EXPERIENCE |</a>
+    <a href="portfolio.html">WORK |</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+
+  <div class="jumbotron jumbo-img jumbotron-fluid">
+    <div class="container jumbo-text">
+      <h1 class="less-padding-margin">Hello World! I'm Shannon King,</h1>
+      <h1>Full-Stack Web Developer</h1>
+    </div>
+  </div>
 
   <!-- use bootstrap grid options to insert responsive viewports for iphone, tablet, and desktop -->
-  <h3>My Projects</h3>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item list-group-item-action"><a href="https://myevents-ucsd.herokuapp.com/"
-        target="_blank">Full-Stack, MyEvents App</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://burger-mvc-design-pattern.herokuapp.com/"
-        target="_blank">Node.js & Express.js, Handlebars, Burgers Yum!</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://friend-finder-node-express-sk.herokuapp.com/"
-        target="_blank">Node.js & Express.js servers, Friend Finder</a></li>
-    <li class="list-group-item list-group-item-action"><a href=" https://github.com/shannonking0216/node-mysql"
-        target="_blank">Node.js, MySQL</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://github.com/shannonking0216/liri-node-app"
-        target="_blank">Node.js, LiriBot</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://santo092.github.io/Project-1/"
-        target="_blank">jQuery, JavaScript, API, Game of Thrones Quiz</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/gif-tastic/"
-        target="_blank">Using an API, Gif-tastic!</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/psychic-game/"
-        target="_blank">JavaScript, Psychic Game</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/train-scheduler/"
-        target="_blank">Train Scheduler</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/shannon-king-wireframe/" 
-        target="_blank">Wireframe</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/TriviaGame/"
-        target="_blank">JavaScript, Trivia Game</a></li>
-    <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/unit-4-game/"
-        target="_blank">jQuery, Crystal Collector Game</a></li>
+  <container class="container">
+    <div class="row">
+      <div class="col-6">
+        <h2>My Projects</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <ul>
+          <li class="list-group-item list-group-item-action"><a href="https://myevents-ucsd.herokuapp.com/"
+              target="_blank">JavaScript, Node.js, Full-Stack Web Application</a></li>
+          <li class="list-group-item list-group-item-action"><a href="https://burger-mvc-design-pattern.herokuapp.com/"
+              target="_blank">Node.js & Express.js, Handlebars, Returaunt Application</a></li>
+          <li class="list-group-item list-group-item-action"><a
+              href="https://friend-finder-node-express-sk.herokuapp.com/" target="_blank">Node.js & Express.js servers,
+              Friend Finder</a></li>
+          <li class="list-group-item list-group-item-action"><a href=" https://github.com/shannonking0216/node-mysql"
+              target="_blank">Node.js, MySQL</a></li>
+          <li class="list-group-item list-group-item-action"><a href="https://github.com/shannonking0216/liri-node-app"
+              target="_blank">Node.js, LiriBot</a></li>
+          <li class="list-group-item list-group-item-action"><a href="https://santo092.github.io/Project-1/"
+              target="_blank">jQuery, JavaScript, API, Game of Thrones Quiz</a></li>
+          <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/gif-tastic/"
+              target="_blank">Using an API, Gif-tastic!</a></li>
+          <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/psychic-game/"
+              target="_blank">JavaScript, Psychic Game</a></li>
+          <li class="list-group-item list-group-item-action"><a
+              href="https://shannonking0216.github.io/train-scheduler/" target="_blank">Train Scheduler</a></li>
+          <li class="list-group-item list-group-item-action"><a
+              href="https://shannonking0216.github.io/shannon-king-wireframe/" target="_blank">Wireframe</a></li>
+          <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/TriviaGame/"
+              target="_blank">JavaScript, Trivia Game</a></li>
+          <li class="list-group-item list-group-item-action"><a href="https://shannonking0216.github.io/unit-4-game/"
+              target="_blank">jQuery, Crystal Collector Game</a></li>
+        </ul>
+      </div>
+    </div>
+  </container>
 
-  </ul>
-  <footer class="footer">
+
+  <footer class="bottom-nav">
     <nav class="navbar fixed-bottom navbar-light bg-light">
       <a class="navbar-brand" href="contact.html">CONTACT</a>
+      <a class="navbar-brand" href="index.html">HOME</a>
     </nav>
   </footer>
+
 </body>
 
 </html>
